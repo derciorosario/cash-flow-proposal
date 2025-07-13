@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pt" id="html-lang">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes - CashFlow | Microcrédito em Moçambique</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <meta name="description" content="Perguntas frequentes sobre microcrédito da CashFlow. Encontre respostas sobre empréstimos, taxas, prazos e processos de aprovação.">
+
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/pylon-icons.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Language Toggle Styles -->
+    <style>
+        .language-toggle {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: #28a745;
+            border-radius: 25px;
+            padding: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .language-toggle button {
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .language-toggle button.active {
+            background: white;
+            color: #28a745;
+        }
+        .language-toggle button:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        .language-toggle button.active:hover {
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button onclick="switchLanguage('pt')" id="btn-pt" class="active">PT</button>
+        <button onclick="switchLanguage('en')" id="btn-en">EN</button>
+    </div>
+
+    <div class="preloader">
+        <img class="preloader__image" src="assets/images/loader.png" alt="">
+    </div><!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header">
+            <div class="topbar">
+                <div class="container">
+                    <div class="topbar__left">
+                        <div class="topbar__social">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-pinterest-p"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div><!-- /.topbar__social -->
+                        <a href="#" data-pt="Entrar" data-en="Login">Entrar</a>
+                        <a href="news.html" data-pt="Notícias da Empresa" data-en="Company News">Notícias da Empresa</a>
+                        <a href="faq.html" data-pt="Perguntas Frequentes" data-en="FAQs">Perguntas Frequentes</a>
+                    </div><!-- /.topbar__left -->
+                    <div class="topbar__right">
+                        <a href="mailto:ajuda@cashflow.co.mz"><i class="pylon-icon-email1"></i>ajuda@cashflow.co.mz</a>
+                        <a href="#"><i class="pylon-icon-clock2"></i><span data-pt="Seg - Sáb 8:00 - 18:00" data-en="Mon - Sat 8:00 AM - 6:00 PM">Seg - Sáb 8:00 - 18:00</span></a>
+                    </div><!-- /.topbar__right -->
+                </div><!-- /.container -->
+            </div><!-- /.topbar -->
+            <nav class="main-menu">
+                <div class="container">
+                    <div class="logo-box">
+                        <a href="index-2.html" aria-label="logo image"><img src="assets/images/cashflow-logo-dark.svg" width="155"
+                                alt="CashFlow Logo"></a>
+                        <span class="fa fa-bars mobile-nav__toggler"></span>
+                    </div><!-- /.logo-box -->
+                    <ul class="main-menu__list">
+                        <li class="dropdown">
+                            <a href="index-2.html" data-pt="Início" data-en="Home">Início</a>
+                            <ul>
+                                <li>
+                                    <a href="index-2.html">Home One</a>
+                                </li>
+                                <li><a href="index-3.html">Home Two</a></li>
+                                <li><a href="index-4.html">Home Three</a></li>
+                                <li><a href="index-5.html">Home Four</a></li>
+                                <li><a href="index-6.html">Home Five</a></li>
+                                <li class="dropdown">
+                                    <a href="#">Header Styles</a>
+                                    <ul>
+                                        <li><a href="index-2.html">Header One</a></li>
+                                        <li><a href="index-3.html">Header Two</a></li>
+                                        <li><a href="index-4.html">Header Three</a></li>
+                                        <li><a href="index-5.html">Header Four</a></li>
+                                        <li><a href="index-6.html">Header Five</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="about.html" data-pt="Sobre Nós" data-en="About Us">Sobre Nós</a>
+                            <ul>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="team-details.html">Team Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="services.html" data-pt="Serviços" data-en="Services">Serviços</a>
+                            <ul>
+                                <li><a href="services.html">Service</a></li>
+                                <li><a href="services-2.html">Service Two</a></li>
+                                <li><a href="service-details.html">Service Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#" data-pt="Páginas" data-en="Pages">Páginas</a>
+                            <ul>
+                                <li><a href="how-it-works.html">How It Works</a></li>
+                                <li><a href="loan-calculator.html">Loan Calculator</a></li>
+                                <li><a href="loan-eligibility.html">Loan Eligibility</a></li>
+                                <li><a href="apply-now.html">Apply Now</a></li>
+                                <li class="dropdown">
+                                    <a href="credit-card.html">Credit Card</a>
+                                    <ul>
+                                        <li><a href="credit-card.html">Credit Card</a></li>
+                                        <li><a href="credit-card-details.html">Credit Card Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="testimonials.html">Testimonials</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="news.html" data-pt="Notícias" data-en="News">Notícias</a>
+                            <ul>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="news-details.html">News Details</a></li>
+                                <li><a href="news-default.html">News Default</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html" data-pt="Contacte-nos" data-en="Contact Us">Contacte-nos</a></li>
+                        <li class="search-btn search-toggler">
+                            <a href="#"><i class="pylon-icon-magnifying-glass"></i></a>
+                        </li>
+                    </ul>
+                    <!-- /.main-menu__list -->
+
+                    <div class="main-header__info">
+                        <div class="main-header__info-phone">
+                            <i class="pylon-icon-tech-support"></i>
+                            <div class="main-header__info-phone-content">
+                                <span data-pt="Ligue a Qualquer Hora" data-en="Call Anytime">Ligue a Qualquer Hora</span>
+                                <h3><a href="tel:+258843210000">+258 84 321 0000</a></h3>
+                            </div><!-- /.main-header__info-phone-content -->
+                        </div><!-- /.main-header__info-phone -->
+                    </div><!-- /.main-header__info -->
+                </div><!-- /.container -->
+            </nav>
+            <!-- /.main-menu -->
+        </header><!-- /.main-header -->
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+        <section class="page-header">
+            <div class="page-header__bg"
+                style="background-image: url(assets/images/backgrounds/page-header-bg-1-1.jpg);"></div>
+            <!-- /.page-header__bg -->
+            <div class="container">
+                <ul class="thm-breadcrumb list-unstyled">
+                    <li><a href="index-2.html" data-pt="Início" data-en="Home">Início</a></li>
+                    <li>/</li>
+                    <li><span data-pt="Perguntas Frequentes" data-en="FAQ's">Perguntas Frequentes</span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+                <h2 data-pt="Perguntas Frequentes" data-en="FAQ's">Perguntas Frequentes</h2>
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
+
+
+        <section class="faq-one faq-one__faq-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <ul id="accordion" class="mb-0 wow fadeInUp list-unstyled" data-wow-duration="1500ms">
+                            <li class="active">
+                                <h2 class="para-title active">
+                                    <span class="collapsed" role="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="far fa-minus"></i>
+                                        <span data-pt="Precisa de um plano de pagamento mensal mais baixo?" data-en="Need a lower monthly payment plan?">Precisa de um plano de pagamento mensal mais baixo?</span>
+                                    </span>
+                                </h2>
+                                <div id="collapseTwo" class="collapse show" role="button" aria-labelledby="collapseTwo"
+                                    data-parent="#accordion">
+                                    <p data-pt="Sim, oferecemos planos de pagamento flexíveis adaptados às suas necessidades financeiras. Pode escolher prazos mais longos para reduzir o valor das prestações mensais. Os nossos consultores ajudam-no a encontrar a melhor solução para o seu orçamento familiar." data-en="Yes, we offer flexible payment plans tailored to your financial needs. You can choose longer terms to reduce monthly payment amounts. Our consultants help you find the best solution for your family budget.">Sim, oferecemos planos de pagamento flexíveis adaptados às suas necessidades financeiras. Pode escolher prazos mais longos para reduzir o valor das prestações mensais. Os nossos consultores ajudam-no a encontrar a melhor solução para o seu orçamento familiar.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h2 class="para-title">
+                                    <span class="collapsed" role="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <i class="far fa-plus"></i>
+                                        <span data-pt="Quais são os requisitos para obter microcrédito?" data-en="What are the requirements to get microcredit?">Quais são os requisitos para obter microcrédito?</span>
+                                    </span>
+                                </h2>
+                                <div id="collapseOne" class="collapse" aria-labelledby="collapseOne"
+                                    data-parent="#accordion">
+                                    <p data-pt="Para obter microcrédito na CashFlow, precisa de: documento de identificação válido, comprovativo de rendimentos (mesmo que informais), comprovativo de residência, e um plano de negócio simples. Não exigimos garantias bancárias complexas, focamo-nos no seu potencial empreendedor." data-en="To get microcredit at CashFlow, you need: valid identification document, proof of income (even if informal), proof of residence, and a simple business plan. We don't require complex bank guarantees, we focus on your entrepreneurial potential.">Para obter microcrédito na CashFlow, precisa de: documento de identificação válido, comprovativo de rendimentos (mesmo que informais), comprovativo de residência, e um plano de negócio simples. Não exigimos garantias bancárias complexas, focamo-nos no seu potencial empreendedor.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h2 class="para-title">
+                                    <span class="collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" role="button" aria-controls="collapseThree">
+                                        <i class="far fa-plus"></i>
+                                        <span data-pt="Quanto tempo demora a aprovação do empréstimo?" data-en="How long does loan approval take?">Quanto tempo demora a aprovação do empréstimo?</span>
+                                    </span>
+                                </h2>
+                                <div id="collapseThree" class="collapse" aria-labelledby="collapseThree"
+                                    data-parent="#accordion">
+                                    <p data-pt="O processo de aprovação na CashFlow é rápido e eficiente. Normalmente, a análise do seu pedido demora entre 24 a 48 horas. Após aprovação, o dinheiro é disponibilizado na sua conta em até 2 dias úteis. Priorizamos a agilidade para não perder oportunidades de negócio." data-en="The approval process at CashFlow is fast and efficient. Normally, analyzing your application takes between 24 to 48 hours. After approval, the money is available in your account within 2 business days. We prioritize speed so you don't miss business opportunities.">O processo de aprovação na CashFlow é rápido e eficiente. Normalmente, a análise do seu pedido demora entre 24 a 48 horas. Após aprovação, o dinheiro é disponibilizado na sua conta em até 2 dias úteis. Priorizamos a agilidade para não perder oportunidades de negócio.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h2 class="para-title">
+                                    <span class="collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                        aria-expanded="false" role="button" aria-controls="collapseFour">
+                                        <i class="far fa-plus"></i>
+                                        <span data-pt="Quais são as taxas de juro aplicadas?" data-en="What are the applied interest rates?">Quais são as taxas de juro aplicadas?</span>
+                                    </span>
+                                </h2>
+                                <div id="collapseFour" class="collapse" aria-labelledby="collapseFour"
+                                    data-parent="#accordion">
+                                    <p data-pt="As nossas taxas de juro são competitivas e transparentes, variando entre 2% a 4% ao mês, dependendo do valor, prazo e perfil do cliente. Não cobramos taxas ocultas. Todos os custos são explicados claramente antes da assinatura do contrato." data-en="Our interest rates are competitive and transparent, ranging from 2% to 4% per month, depending on the amount, term and customer profile. We don't charge hidden fees. All costs are clearly explained before signing the contract.">As nossas taxas de juro são competitivas e transparentes, variando entre 2% a 4% ao mês, dependendo do valor, prazo e perfil do cliente. Não cobramos taxas ocultas. Todos os custos são explicados claramente antes da assinatura do contrato.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h2 class="para-title">
+                                    <span class="collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                        aria-expanded="false" role="button" aria-controls="collapseFive">
+                                        <i class="far fa-plus"></i>
+                                        <span data-pt="Posso pagar antecipadamente sem penalizações?" data-en="Can I pay early without penalties?">Posso pagar antecipadamente sem penalizações?</span>
+                                    </span>
+                                </h2>
+                                <div id="collapseFive" class="collapse" aria-labelledby="collapseFive"
+                                    data-parent="#accordion">
+                                    <p data-pt="Sim! Na CashFlow incentivamos o pagamento antecipado. Não cobramos penalizações por liquidação antecipada e ainda oferecemos desconto nos juros restantes. Isto demonstra a sua boa gestão financeira e melhora o seu histórico para futuros empréstimos." data-en="Yes! At CashFlow we encourage early payment. We don't charge penalties for early settlement and even offer a discount on remaining interest. This demonstrates your good financial management and improves your history for future loans.">Sim! Na CashFlow incentivamos o pagamento antecipado. Não cobramos penalizações por liquidação antecipada e ainda oferecemos desconto nos juros restantes. Isto demonstra a sua boa gestão financeira e melhora o seu histórico para futuros empréstimos.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h2 class="para-title">
+                                    <span class="collapsed" data-toggle="collapse" data-target="#collapseSix"
+                                        aria-expanded="false" role="button" aria-controls="collapseSix">
+                                        <i class="far fa-plus"></i>
+                                        <span data-pt="Que apoio oferecem após a concessão do empréstimo?" data-en="What support do you offer after granting the loan?">Que apoio oferecem após a concessão do empréstimo?</span>
+                                    </span>
+                                </h2>
+                                <div id="collapseSix" class="collapse" aria-labelledby="collapseSix"
+                                    data-parent="#accordion">
+                                    <p data-pt="Oferecemos acompanhamento contínuo através de consultoria empresarial gratuita, workshops sobre gestão financeira, e suporte técnico para o desenvolvimento do seu negócio. O nosso objetivo é o seu sucesso, por isso mantemos uma relação próxima durante todo o período do empréstimo." data-en="We offer continuous monitoring through free business consulting, workshops on financial management, and technical support for developing your business. Our goal is your success, so we maintain a close relationship throughout the loan period.">Oferecemos acompanhamento contínuo através de consultoria empresarial gratuita, workshops sobre gestão financeira, e suporte técnico para o desenvolvimento do seu negócio. O nosso objetivo é o seu sucesso, por isso mantemos uma relação próxima durante todo o período do empréstimo.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- /.col-lg-8 -->
+                    <div class="col-lg-4">
+                        <div class="faq-one__box">
+                            <img src="assets/images/resources/faq-box-1-1.png" class="img-fluid" alt="">
+                            <div class="main-header__info">
+                                <div class="main-header__info-phone">
+                                    <i class="pylon-icon-tech-support"></i>
+                                    <div class="main-header__info-phone-content">
+                                        <span data-pt="Ligue a Qualquer Hora" data-en="Call Anytime">Ligue a Qualquer Hora</span>
+                                        <h3><a href="tel:+258843210000">+258 84 321 0000</a></h3>
+                                    </div><!-- /.main-header__info-phone-content -->
+                                </div><!-- /.main-header__info-phone -->
+                            </div><!-- /.main-header__info -->
+                        </div><!-- /.faq-one__box -->
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.faq-one -->
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget footer-widget__about">
+                            <a href="index-2.html">
+                                <img src="assets/images/cashflow-logo-light.svg" width="155" alt="CashFlow Logo">
+                            </a>
+                            <p data-pt="Bem-vindo à CashFlow, empresa de microcrédito que oferece empréstimos com taxas de juro competitivas e processos simplificados para impulsionar o seu negócio em Moçambique." data-en="Welcome to CashFlow, microcredit company that offers loans with competitive interest rates and simplified processes to boost your business in Mozambique.">Bem-vindo à CashFlow, empresa de microcrédito que oferece empréstimos com taxas de juro competitivas e processos simplificados para impulsionar o seu negócio em Moçambique.</p>
+                            <div class="footer-widget__about-phone">
+                                <i class="pylon-icon-tech-support"></i>
+                                <div class="footer-widget__about-phone-content">
+                                    <span data-pt="Ligue a Qualquer Hora" data-en="Call Anytime">Ligue a Qualquer Hora</span>
+                                    <h3><a href="tel:+258843210000">+258 84 321 0000</a></h3>
+                                </div><!-- /.footer-widget__about-phone-content -->
+                            </div><!-- /.footer-widget__about-phone -->
+                        </div><!-- /.footer-widget footer-widget__about -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="footer-widget footer-widget__link">
+                            <h3 class="footer-widget__title" data-pt="Explorar" data-en="Explore">Explorar</h3>
+                            <ul class="list-unstyled footer-widget__link-list">
+                                <li><a href="about.html"><i class="fa fa-arrow-right"></i><span data-pt="Sobre Nós" data-en="About">Sobre Nós</span></a></li>
+                                <li><a href="services.html"><i class="fa fa-arrow-right"></i><span data-pt="Nossos Serviços" data-en="Our Services">Nossos Serviços</span></a></li>
+                                <li><a href="news.html"><i class="fa fa-arrow-right"></i><span data-pt="Últimas Notícias" data-en="Latest News">Últimas Notícias</span></a></li>
+                                <li><a href="testimonials.html"><i class="fa fa-arrow-right"></i><span data-pt="Testemunhos" data-en="Testimonials">Testemunhos</span></a></li>
+                                <li><a href="contact.html"><i class="fa fa-arrow-right"></i><span data-pt="Contacto" data-en="Contact">Contacto</span></a></li>
+                                <li><a href="loan-calculator.html"><i class="fa fa-arrow-right"></i><span data-pt="Calculadora de Empréstimo" data-en="Loan Calculator">Calculadora de Empréstimo</span></a>
+                                </li>
+                            </ul><!-- /.list-unstyled -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-2 -->
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget footer-widget__post">
+                            <h3 class="footer-widget__title" data-pt="Últimas Notícias" data-en="Latest News">Últimas Notícias</h3>
+                            <ul class="list-unstyled footer-widget__post-list">
+                                <li>
+                                    <img src="assets/images/resources/footer-post-1-1.png" alt="">
+                                    <div class="footer-widget__post-list-content">
+                                        <span>16 de Outubro, 2023</span>
+                                        <h3><a href="news-details.html" data-pt="Oferecemos Serviços de Qualidade" data-en="We're Providing Quality Services">Oferecemos Serviços de Qualidade</a></h3>
+                                    </div><!-- /.footer-widget__post-content -->
+                                </li>
+                                <li>
+                                    <img src="assets/images/resources/footer-post-1-2.png" alt="">
+                                    <div class="footer-widget__post-list-content">
+                                        <span>16 de Outubro, 2023</span>
+                                        <h3><a href="news-details.html" data-pt="Microcrédito Transforma Vidas" data-en="Microcredit Transforms Lives">Microcrédito Transforma Vidas</a></h3>
+                                    </div><!-- /.footer-widget__post-content -->
+                                </li>
+                            </ul><!-- /.list-unstyled -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget footer-widget__contact">
+                            <h3 data-pt="Contacto" data-en="Contact">Contacto</h3>
+                            <ul class="list-unstyled footer-widget__contact-list">
+                                <li>
+                                    <a href="mailto:ajuda@cashflow.co.mz"><i
+                                            class="pylon-icon-email1"></i>ajuda@cashflow.co.mz</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="pylon-icon-clock2"></i><span data-pt="Seg - Sáb 8:00 - 18:00" data-en="Mon - Sat 8:00 AM - 6:00 PM">Seg - Sáb 8:00 - 18:00</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="pylon-icon-pin1"></i><span data-pt="Av. Julius Nyerere, 123, Maputo, Moçambique" data-en="Julius Nyerere Ave, 123, Maputo, Mozambique">Av. Julius Nyerere, 123, Maputo, Moçambique</span></a>
+                                </li>
+                            </ul>
+                        </div><!-- /.footer-widget footer-widget__contact -->
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </footer><!-- /.site-footer -->
+        <div class="bottom-footer">
+            <div class="container">
+                <p data-pt="© Copyright 2023 por CashFlow.co.mz" data-en="© Copyright 2023 by CashFlow.co.mz">© Copyright 2023 por CashFlow.co.mz</p>
+                <div class="bottom-footer__social">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.bottom-footer__social -->
+            </div><!-- /.container -->
+        </div><!-- /.bottom-footer -->
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"></span>
+
+            <div class="logo-box">
+                <a href="index-2.html" aria-label="logo image"><img src="assets/images/cashflow-logo-light.svg" width="155"
+                        alt="CashFlow Logo" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="pylon-icon-email1"></i>
+                    <a href="mailto:ajuda@cashflow.co.mz">ajuda@cashflow.co.mz</a>
+                </li>
+                <li>
+                    <i class="pylon-icon-telephone"></i>
+                    <a href="tel:+258843210000">+258 84 321 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__language">
+                    <img src="assets/images/resources/flag-1-1.jpg" alt="">
+                    <label class="sr-only" for="language-select">select language</label>
+                    <!-- /#language-select.sr-only -->
+                    <select class="selectpicker" id="language-select">
+                        <option value="english">English</option>
+                        <option value="arabic">Arabic</option>
+                    </select>
+                </div><!-- /.mobile-nav__language -->
+                <div class="mobile-nav__social">
+                    <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" aria-label="pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Pesquisar..." data-pt-placeholder="Pesquisar..." data-en-placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/wNumb.min.js"></script>
+    <script src="assets/js/nouislider.min.js"></script>
+
+    <!-- template js -->
+    <script src="assets/js/theme.js"></script>
+    
+    <!-- Language Toggle Script -->
+    <script>
+        function switchLanguage(lang) {
+            // Update HTML lang attribute
+            document.getElementById('html-lang').setAttribute('lang', lang);
+            
+            // Update button states
+            document.getElementById('btn-pt').classList.toggle('active', lang === 'pt');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            
+            // Update all elements with data attributes
+            const elements = document.querySelectorAll('[data-pt], [data-en]');
+            elements.forEach(element => {
+                if (element.hasAttribute('data-' + lang)) {
+                    element.textContent = element.getAttribute('data-' + lang);
+                }
+            });
+            
+            // Update placeholder for search input
+            const searchInput = document.getElementById('search');
+            if (searchInput && searchInput.hasAttribute('data-' + lang + '-placeholder')) {
+                searchInput.placeholder = searchInput.getAttribute('data-' + lang + '-placeholder');
+            }
+            
+            // Save language preference
+            localStorage.setItem('preferred-language', lang);
+        }
+        
+        // Load saved language preference on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferred-language') || 'pt';
+            switchLanguage(savedLang);
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from webdevcode.com/html/pylon/faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Jul 2025 09:25:17 GMT -->
+</html>

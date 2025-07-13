@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="pt" id="html-lang">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashFlow - Microcrédito em Moçambique | Empréstimos Rápidos e Seguros</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <meta name="description" content="CashFlow - Empresa líder em microcrédito em Moçambique. Oferecemos empréstimos rápidos, seguros e acessíveis para pequenos negócios e necessidades pessoais.">
+
+    <!-- fonts -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/pylon-icons.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css">
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Language Toggle Styles -->
+    <style>
+        .language-toggle {
+           position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: #28a745;
+            border-radius: 25px;
+            padding: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .language-toggle button {
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .language-toggle button.active {
+            background: white;
+             color: #28a745;
+        }
+        .language-toggle button:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        .language-toggle button.active:hover {
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button onclick="switchLanguage('pt')" id="btn-pt" class="active">PT</button>
+        <button onclick="switchLanguage('en')" id="btn-en">EN</button>
+    </div>
+
+    <div class="preloader">
+        <img class="preloader__image" src="assets/images/loader.png" alt="">
+    </div><!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header">
+            <div class="topbar">
+                <div class="container">
+                    <div class="topbar__left">
+                        <div class="topbar__social">
+                            <a href="#" class="fab fa-facebook-square"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div><!-- /.topbar__social -->
+                        <a style="display: none;" href="faq.html" data-pt="Perguntas Frequentes" data-en="FAQs">Perguntas Frequentes</a>
+                    </div><!-- /.topbar__left -->
+                    <div class="topbar__right">
+                        <a href="#"><i class="pylon-icon-email1"></i>ajuda@cashflow.co.mz</a>
+                        <a href="#"><i class="pylon-icon-clock2"></i><span data-pt="Seg - Sáb 8:00 - 18:00" data-en="Mon - Sat 8:00 AM - 6:00 PM">Seg - Sáb 8:00 - 18:00</span></a>
+                    </div><!-- /.topbar__right -->
+                </div><!-- /.container -->
+            </div><!-- /.topbar -->
+            <nav class="main-menu">
+                <div class="container">
+                    <div class="logo-box">
+                        <a href="#" aria-label="logo image"><img src="assets/images/cashflow-logo-dark.svg" width="155"
+                                alt="CashFlow Logo"></a>
+                        <span class="fa fa-bars mobile-nav__toggler"></span>
+                    </div><!-- /.logo-box -->
+                    <ul class="main-menu__list">
+                        <li class="dropdown">
+                            <a href="#" data-pt="Início" data-en="Home">Início</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#about" data-pt="Sobre Nós" data-en="About Us">Sobre Nós</a>
+                        </li>
+                        <li><a href="#services" data-pt="Serviços" data-en="Services">Serviços</a>
+                           
+                        </li>
+                        <li style="display: none;" class="dropdown"><a href="#news" data-pt="Notícias" data-en="News">Notícias</a>
+                        </li>
+                        <li class="search-btn search-toggler">
+                            <a href="#"><i class="pylon-icon-magnifying-glass"></i></a>
+                        </li>
+                    </ul>
+                    <!-- /.main-menu__list -->
+
+                    <div class="main-header__info">
+                        <div class="main-header__info-phone">
+                            <i class="pylon-icon-tech-support"></i>
+                            <div class="main-header__info-phone-content">
+                                <span data-pt="Ligue a Qualquer Hora" data-en="Call Anytime">Ligue a Qualquer Hora</span>
+                                <h3><a href="tel:+258843210000">+258 84 321 0000</a></h3>
+                            </div><!-- /.main-header__info-phone-content -->
+                        </div><!-- /.main-header__info-phone -->
+                    </div><!-- /.main-header__info -->
+                </div><!-- /.container -->
+            </nav>
+            <!-- /.main-menu -->
+        </header><!-- /.main-header -->
+
+         <div class="stricky-header stricked-menu main-menu">
+                    <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+                </div><!-- /.stricky-header -->
+
+                <section class="main-slider">
+                    <div class="swiper-container thm-swiper__slider" data-swiper-options='{
+                "slidesPerView": 1,
+                "loop": true,
+                "effect": "fade",
+                "autoplay": {
+                    "delay": 5000
+                },
+                "navigation": {
+                    "nextEl": "#main-slider__swiper-button-next",
+                    "prevEl": "#main-slider__swiper-button-prev"
+                }
+            }'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/main-slider/main-slider-1-1.jpg);"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6">
+                                    <p data-pt="Processo de Pagamento Simples e Seguro" data-en="Simple & Secure Payment Process">Processo de Pagamento Simples e Seguro</p>
+                                    <h2 data-pt="Conectando às Suas Necessidades de Crédito" data-en="Connecting Your Credit Needs">Conectando às Suas Necessidades de Crédito</h2>
+                                    <a href="apply-now.html" class=" thm-btn" data-pt="Solicitar Empréstimo" data-en="Apply For Loan">Solicitar Empréstimo</a>
+                                    <!-- /.thm-btn dynamic-radius -->
+                                </div><!-- /.col-lg-7 text-right -->
+                            </div><!-- /.row -->
+                        </div><!-- /.container -->
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/main-slider/main-slider-1-2.jpg);"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6">
+                                    <p data-pt="Processo de Pagamento Simples e Seguro" data-en="Simple & Secure Payment Process">Processo de Pagamento Simples e Seguro</p>
+                                    <h2 data-pt="Conectando às Suas Necessidades de Crédito" data-en="Connecting Your Credit Needs">Conectando às Suas Necessidades de Crédito</h2>
+                                    <a href="apply-now.html" class=" thm-btn" data-pt="Solicitar Empréstimo" data-en="Apply For Loan">Solicitar Empréstimo</a>
+                                    <!-- /.thm-btn dynamic-radius -->
+                                </div><!-- /.col-lg-7 text-right -->
+                            </div><!-- /.row -->
+                        </div><!-- /.container -->
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/main-slider/main-slider-1-1.jpg);"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6">
+                                    <p data-pt="Processo de Pagamento Simples e Seguro" data-en="Simple & Secure Payment Process">Processo de Pagamento Simples e Seguro</p>
+                                    <h2 data-pt="Conectando às Suas Necessidades de Crédito" data-en="Connecting Your Credit Needs">Conectando às Suas Necessidades de Crédito</h2>
+                                    <a href="apply-now.html" class=" thm-btn" data-pt="Solicitar Empréstimo" data-en="Apply For Loan">Solicitar Empréstimo</a>
+                                    <!-- /.thm-btn dynamic-radius -->
+                                </div><!-- /.col-lg-7 text-right -->
+                            </div><!-- /.row -->
+                        </div><!-- /.container -->
+                    </div><!-- /.swiper-slide -->
+                </div><!-- /.swiper-wrapper -->
+
+                <!-- If we need navigation buttons -->
+                <div class="main-slider__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next"><i
+                            class="pylon-icon-left-arrow"></i></div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev"><i
+                            class="pylon-icon-right-arrow"></i></div>
+                </div><!-- /.main-slider__nav -->
+
+            </div><!-- /.swiper-container thm-swiper__slider -->
+            <div class="feature-two">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1500ms">
+                                    <div class="feature-two__box">
+                                        <i class="pylon-icon-consumer-behavior"></i>
+                                        <p data-pt="Processo de Pagamento Rápido" data-en="Quick Payment Process">Processo de Pagamento Rápido</p>
+                                    </div><!-- /.feature-two__box -->
+                                </div><!-- /.col-lg-4 col-md-6 -->
+                                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1500ms">
+                                    <div class="feature-two__box">
+                                        <i class="pylon-icon-point-of-sale"></i>
+                                        <p data-pt="Sem Taxas de Pagamento Antecipado" data-en="No Prepayment Fees">Sem Taxas de Pagamento Antecipado</p>
+                                    </div><!-- /.feature-two__box -->
+                                </div><!-- /.col-lg-4 col-md-6 -->
+                            </div>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.feature-two -->
+        </section><!-- /.main-slider -->
+
+        <section class="about-one" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-xl-7">
+                        <div class="about-one__content">
+                            <div class="block-title text-left">
+                                <p data-pt="Apresentação da Empresa" data-en="Company Introduction">Apresentação da Empresa</p>
+                                <h2 data-pt="Os Nossos Microcréditos Tornam os Seus Sonhos Realidade" data-en="Our Microcredit Makes Your Dreams Come True">Os Nossos Microcréditos Tornam os Seus Sonhos Realidade</h2>
+                            </div><!-- /.block-title -->
+                            <p data-pt="A CashFlow é uma empresa moçambicana especializada em microcrédito, oferecendo soluções financeiras acessíveis para pequenos negócios e necessidades pessoais. Com processos simplificados e aprovação rápida, ajudamos empreendedores e famílias a alcançarem os seus objectivos financeiros com segurança e transparência." data-en="CashFlow is a Mozambican company specialized in microcredit, offering accessible financial solutions for small businesses and personal needs. With simplified processes and quick approval, we help entrepreneurs and families achieve their financial goals with security and transparency.">A CashFlow é uma empresa moçambicana especializada em microcrédito, oferecendo soluções financeiras acessíveis para pequenos negócios e necessidades pessoais. Com processos simplificados e aprovação rápida, ajudamos empreendedores e famílias a alcançarem os seus objectivos financeiros com segurança e transparência.</p>
+
+                        </div><!-- /.about-one__content -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-four__box text-left">
+                                    <!-- .feature-four__box -->
+                                    <div class="feature-four__box-inner">
+
+                                        <div class="feature-four__box-icon"><i class="flaticon flaticon-property-1"></i>
+                                        </div>
+                                        <div class="feature-four__box-right">
+                                         <h3 data-pt="Atendimento de Excelência" data-en="Excellence in Service">
+                                                Atendimento de Excelência
+                                            </h3>
+                                            <p data-pt="Referência em soluções de microcrédito com confiança e transparência." 
+                                            data-en="A reference in microcredit solutions with trust and transparency.">
+                                            Referência em soluções de microcrédito com confiança e transparência.
+                                            </p>
+
+                                         </div>
+                                    </div>
+                                </div><!-- /.feature-four__box -->
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-four__box text-left">
+                                    <!-- .feature-four__box -->
+                                    <div class="feature-four__box-inner">
+                                        <div class="feature-four__box-icon"><i class="flaticon flaticon-growth-1"></i>
+                                        </div>
+                                        <div class="feature-four__box-right">
+                                            <h3 data-pt="Empresa Certificada" data-en="Certified Company">
+                                                Empresa Certificada
+                                            </h3>
+                                            <p data-pt="Licenciada pelo Banco de Moçambique para operar microcrédito" data-en="Licensed by Bank of Mozambique to operate microcredit">Licenciada pelo Banco de Moçambique para operar microcrédito</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /.feature-four__box -->
+                            </div>
+                        </div>
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-12 col-xl-5">
+                        <form action="#" id="loan-calculator" data-interest-rate="15"
+                            class="about-one__form wow fadeInUp" data-wow-duration="1500ms">
+                            <h3 data-pt="Quanto Precisa?" data-en="How Much You Need?">Quanto Precisa?</h3>
+                            <div class="about-one__form-content">
+                                <div class="input-box__top">
+                                    <span>1.000 MT</span>
+                                    <span>500.000 MT</span>
+                                </div><!-- /.input-box__top -->
+                                <div class="input-box">
+                                    <div class="range-slider-count" id="range-slider-count"></div>
+                                    <input type="hidden" value="" id="min-value-rangeslider-count">
+                                    <input type="hidden" value="" id="max-value-rangeslider-count">
+                                </div><!-- /.input-box -->
+                                <div class="input-box__top">
+                                    <span data-pt="1 Mês" data-en="1 Month">1 Mês</span>
+                                    <span data-pt="24 Meses" data-en="24 Months">24 Meses</span>
+                                </div><!-- /.input-box__top -->
+                                <div class="input-box">
+                                    <div class="range-slider-month" id="range-slider-month"></div>
+                                    <input type="hidden" value="" id="min-value-rangeslider-month">
+                                    <input type="hidden" value="" id="max-value-rangeslider-month">
+                                </div><!-- /.input-box -->
+                                <p>
+                                    <span data-pt="Pagamento Mensal" data-en="Monthly Payment">Pagamento Mensal</span>
+                                    <b><i id="loan-monthly-pay"></i> MT</b>
+                                </p>
+                                <p>
+                                    <span data-pt="Prazo" data-en="Term">Prazo</span>
+                                    <b><i id="loan-month"></i> <span data-pt="Meses" data-en="Months">Meses</span></b>
+                                </p>
+                                <p>
+                                    <span data-pt="Total a Pagar" data-en="Total Payback">Total a Pagar</span>
+                                    <b><i id="loan-total"></i> MT</b>
+                                </p>
+                                <a href="apply-now.html" class="thm-btn" data-pt="Solicitar Empréstimo" data-en="Apply For Loan">Solicitar Empréstimo</a>
+                            </div><!-- /.about-one__from-content -->
+                        </form><!-- /.about-one__form -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.about-one -->
+
+        <section class="service-one" id="services">
+            <div class="container">
+                <div class="block-title text-center">
+                    <p data-pt="O Que Oferecemos" data-en="What We're Offering">O Que Oferecemos</p>
+                    <h2 data-pt="Todos os Serviços de Microcrédito" data-en="All Microcredit Services">Todos os Serviços de Microcrédito</h2>
+                </div><!-- /.block-title -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="service-one__card">
+                            <div class="service-one__image">
+                                <a href="service-details.html">
+                                    <div class="post-thumbnail">
+                                        <img src="assets/images/services/services-1-1.png" alt="">
+                                    </div>
+                                </a>
+                            </div><!-- /.service-one__image -->
+                            <div class="service-one__content">
+                                <a href="service-details.html">
+                                    <div class="service-icon">
+                                        <i class="flaticon-car-loan"></i>
+                                    </div>
+                                </a>
+                                <h3><a href="service-details.html" data-pt="Empréstimo Pessoal" data-en="Personal Loan">Empréstimo Pessoal</a></h3>
+                                <p data-pt="Crédito rápido para necessidades pessoais urgentes, com aprovação em 24 horas e documentação mínima." data-en="Quick credit for urgent personal needs, with 24-hour approval and minimal documentation.">Crédito rápido para necessidades pessoais urgentes, com aprovação em 24 horas e documentação mínima.</p>
+                                <a style="display: none;" href="service-details.html" class="pylon-icon-right-arrow service-one__link"></a>
+                                <!-- /.service-one__link -->
+                            </div><!-- /.service-one__content -->
+                        </div><!-- /.service-one__card -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <div class="service-one__card">
+                            <div class="service-one__image">
+                                <a href="service-details.html">
+                                    <div class="post-thumbnail">
+                                        <img src="assets/images/services/services-1-2.png" alt="">
+                                    </div>
+                                </a>
+                            </div><!-- /.service-one__image -->
+                            <div class="service-one__content">
+                                <a href="service-details.html">
+                                    <div class="service-icon">
+                                        <i class="flaticon-online-money"></i>
+                                    </div>
+                                </a>
+                                <h3><a href="service-details.html" data-pt="Empréstimo para Educação" data-en="Education Loan">Empréstimo para Educação</a></h3>
+                                <p data-pt="Financiamento para propinas, material escolar e cursos de formação profissional." data-en="Financing for tuition, school materials and professional training courses.">Financiamento para propinas, material escolar e cursos de formação profissional.</p>
+                                <a style="display: none;" href="service-details.html" class="pylon-icon-right-arrow service-one__link"></a>
+                                <!-- /.service-one__link -->
+                            </div><!-- /.service-one__content -->
+                        </div><!-- /.service-one__card -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <div class="service-one__card">
+                            <div class="service-one__image">
+                                <a href="service-details.html">
+                                    <div class="post-thumbnail">
+                                        <img src="assets/images/services/services-1-3.png" alt="">
+                                    </div>
+                                </a>
+                            </div><!-- /.service-one__image -->
+                            <div class="service-one__content">
+                                <a href="service-details.html">
+                                    <div class="service-icon">
+                                        <i class="flaticon-property-1"></i>
+                                    </div>
+                                </a>
+                                <h3><a href="service-details.html" data-pt="Empréstimo para Negócios" data-en="Business Loan">Empréstimo para Negócios</a></h3>
+                                <p data-pt="Capital de giro para pequenos negócios e empreendedores que querem expandir." data-en="Working capital for small businesses and entrepreneurs looking to expand.">Capital de giro para pequenos negócios e empreendedores que querem expandir.</p>
+                                <a style="display: none;" href="service-details.html" class="pylon-icon-right-arrow service-one__link"></a>
+                                <!-- /.service-one__link -->
+                            </div><!-- /.service-one__content -->
+                        </div><!-- /.service-one__card -->
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.service-one -->
+
+        <section class="feature-one">
+            <img src="assets/images/shapes/feature-shape-1-1.png" alt="" class="feature-one__shape-1">
+            <img src="assets/images/shapes/feature-shape-1-2.png" alt="" class="feature-one__shape-2">
+            <img src="assets/images/shapes/feature-shape-1-3.png" alt="" class="feature-one__shape-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="block-title text-left">
+                            <p data-pt="Conheça Mais Sobre" data-en="Get to Know About">Conheça Mais Sobre</p>
+                            <h2 data-pt="Microcrédito Flexível e Rápido Para Si" data-en="Flexible and Quick Microcredit For You">Microcrédito Flexível e Rápido Para Si</h2>
+                        </div><!-- /.block-title -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <p class="block-text" data-pt="Na CashFlow, oferecemos soluções de microcrédito adaptadas às necessidades dos moçambicanos. Com taxas competitivas, processos simplificados e atendimento personalizado, somos o parceiro ideal para realizar os seus projectos pessoais e empresariais. A nossa missão é democratizar o acesso ao crédito em Moçambique." data-en="At CashFlow, we offer microcredit solutions adapted to the needs of Mozambicans. With competitive rates, simplified processes and personalized service, we are the ideal partner to realize your personal and business projects. Our mission is to democratize access to credit in Mozambique.">Na CashFlow, oferecemos soluções de microcrédito adaptadas às necessidades dos moçambicanos. Com taxas competitivas, processos simplificados e atendimento personalizado, somos o parceiro ideal para realizar os seus projectos pessoais e empresariais. A nossa missão é democratizar o acesso ao crédito em Moçambique.</p><!-- /.block-text -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="feature-one__box">
+                            <i class="pylon-icon-assets"></i>
+                            <p data-pt="Taxas Muito Baixas em Todos os Empréstimos" data-en="Very Low Rates on All Loans">Taxas Muito Baixas em Todos os Empréstimos</p>
+                        </div><!-- /.feature-one__box -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <div class="feature-one__box">
+                            <i class="pylon-icon-verification"></i>
+                            <p data-pt="99.9% Taxa de Sucesso Garantida" data-en="99.9% Success Rate Guarantee">99.9% Taxa de Sucesso Garantida</p>
+                        </div><!-- /.feature-one__box -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <div class="feature-one__box">
+                            <i class="pylon-icon-finance"></i>
+                            <p data-pt="Flexibilidade nos Seus Pagamentos" data-en="Flexible with Your Repayments">Flexibilidade nos Seus Pagamentos</p>
+                        </div><!-- /.feature-one__box -->
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.feature-one -->
+
+        <section class="trusted-company">
+            <div class="trusted-company__bg" style="background-image: url(assets/images/shapes/trust-bg-1-1.png);">
+            </div><!-- /.trusted-company__bg -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="trusted-company__content">
+                            <div class="block-title text-left">
+                                <p data-pt="Empresa de Confiança" data-en="Trusted Company">Empresa de Confiança</p>
+                                <h2 data-pt="A Maioria das Pessoas Confia em Nós pelos Serviços Rápidos" data-en="Most People Trust Us For Fast Services">A Maioria das Pessoas Confia em Nós pelos Serviços Rápidos</h2>
+                            </div><!-- /.block-title -->
+                            <div class="trusted-company__image">
+                                <img src="assets/images/resources/trust-1-1.png" alt="" height="148" width="171">
+                                <p data-pt="A CashFlow oferece soluções de microcrédito com foco na transparência, confiança e excelência no atendimento. Com um compromisso genuíno com o sucesso dos seus clientes, ajudamos pessoas e negócios a alcançarem seus objetivos." data-en="CashFlow offers microcredit solutions with a focus on transparency, trust, and service excellence. With a genuine commitment to customer success, we help individuals and businesses achieve their goals.">
+                                A CashFlow oferece soluções de microcrédito com foco na transparência, confiança e excelência no atendimento. Com um compromisso genuíno com o sucesso dos seus clientes, ajudamos pessoas e negócios a alcançarem seus objetivos.
+                                </p>
+
+
+                            </div><!-- /.trusted-company__image -->
+                            <div class="row">
+                                <div class="col-sm-5 col-xs-12">
+                                    <ul class="trusted-company__list">
+                                        <li class="trusted-company__list-item">
+                                            <span>
+                                                <i aria-hidden="true" class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="trusted-company__list-text" data-pt="Cartão de Crédito Diário" data-en="Daily Credit Card">Cartão de Crédito Diário</span>
+                                        </li><!-- /.trusted-company__list-item-->
+                                        <li class="trusted-company__list-item">
+                                            <span>
+                                                <i aria-hidden="true" class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="trusted-company__list-text" data-pt="Empréstimo Pessoal" data-en="Personal Loan">Empréstimo Pessoal</span>
+                                        </li><!-- /.trusted-company__list-item-->
+                                        <li class="trusted-company__list-item">
+                                            <span>
+                                                <i aria-hidden="true" class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="trusted-company__list-text" data-pt="Empréstimo Automóvel" data-en="Car / Auto Loan">Empréstimo Automóvel</span>
+                                        </li><!-- /.trusted-company__list-item-->
+                                        <li class="trusted-company__list-item">
+                                            <span>
+                                                <i aria-hidden="true" class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="trusted-company__list-text" data-pt="Empréstimo Habitação" data-en="Home Loan">Empréstimo Habitação</span>
+                                        </li><!-- /.trusted-company__list-item-->
+                                    </ul><!-- /.trusted-company__list-->
+                                </div><!-- /.col-md-5-->
+                                <div class="col-sm-6 col-xs-12">
+                                    <ul class="trusted-company__list trusted-company__list-2">
+                                        <li class="trusted-company__list-item">
+                                            <span>
+                                                <i aria-hidden="true" class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="trusted-company__list-text" data-pt="Empréstimo com Garantia de Ouro" data-en="Gold Loan Per Day">Empréstimo com Garantia de Ouro</span>
+                                        </li><!-- /.trusted-company__list-item-->
+                                        <li class="trusted-company__list-item">
+                                            <span>
+                                                <i aria-hidden="true" class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="trusted-company__list-text" data-pt="Empréstimo Hipotecário" data-en="Mortgage Loan">Empréstimo Hipotecário</span>
+                                        </li><!-- /.trusted-company__list-item-->
+                                        <li class="trusted-company__list-item">
+                                            <span>
+                                                <i aria-hidden="true" class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="trusted-company__list-text" data-pt="Empréstimo Educação / Estudante" data-en="Education / Student Loan">Empréstimo Educação / Estudante</span>
+                                        </li><!-- /.trusted-company__list-item-->
+                                        <li class="trusted-company__list-item">
+                                            <span>
+                                                <i aria-hidden="true" class="far fa-check-circle"></i>
+                                            </span>
+                                            <span class="trusted-company__list-text" data-pt="Empréstimo para Casamento" data-en="Wedding Loan">Empréstimo para Casamento</span>
+                                        </li><!-- /.trusted-company__list-item-->
+                                    </ul><!-- /.trusted-company__list-->
+                                </div><!-- /.col-md-6-->
+                            </div>
+                        </div><!-- /.trusted-company__content -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="trusted-company__box-wrap">
+                            <div class="trusted-company__box">
+                                <span>1</span>
+                                <p data-pt="Soluções de crédito fáceis para pequenas agências, negócios e empresas" data-en="Easy loan solutions for small agencies, businesses and companies">Soluções de crédito fáceis para pequenas agências, negócios e empresas</p>
+                            </div><!-- /.trusted-company__box -->
+                            <div class="trusted-company__box">
+                                <span>2</span>
+                                <p data-pt="Submeta os documentos necessários e detalhes para aprovação do empréstimo" data-en="Submit required documents and details for loan approval">Submeta os documentos necessários e detalhes para aprovação do empréstimo</p>
+                            </div><!-- /.trusted-company__box -->
+                            <div class="trusted-company__box">
+                                <span>3</span>
+                                <p data-pt="Obtenha o seu empréstimo agora e pague depois com condições flexíveis" data-en="Get your loan now and pay later with flexible conditions">Obtenha o seu empréstimo agora e pague depois com condições flexíveis</p>
+                            </div><!-- /.trusted-company__box -->
+                            <div class="trusted-company__box">
+                                <span>4</span>
+                                <p data-pt="Obtenha pequenos empréstimos em 2 horas com menos documentos" data-en="Get small loans in 2 hours with fewer documents">Obtenha pequenos empréstimos em 2 horas com menos documentos</p>
+                            </div><!-- /.trusted-company__box -->
+                        </div><!-- /.trusted-company__box-wrap -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.trusted-company -->
+
+
+        <section class="testimonials-one">
+            <div class="container">
+                <div class="block-title text-center">
+                    <p data-pt="Testemunhos de Clientes" data-en="Customer Testimonials">Testemunhos de Clientes</p>
+                    <h2 data-pt="Testemunhos de Clientes" data-en="Customer Testimonials">Testemunhos de Clientes</h2>
+                </div><!-- /.block-title -->
+                <div class="thm-swiper__slider swiper-container" data-swiper-options='{
+        "spaceBetween": 0,
+        "slidesPerView": 1,
+        "slidesPerGroup": 1,
+        "loop":true,
+        "autoplay": {
+            "delay": 5000
+        },
+        "pagination": {
+            "el": ".testimonials-one__swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+        },
+        "breakpoints": {
+            "0": {
+                "spaceBetween": 0,
+                "slidesPerView": 1,
+                "slidesPerGroup": 1
+            },
+            "375": {
+                "spaceBetween": 0,
+                "slidesPerView": 1,
+                "slidesPerGroup": 1
+            },
+            "667": {
+                "spaceBetween": 30,
+                "slidesPerView": 1,
+                "slidesPerGroup": 1
+            },
+            "767": {
+                "spaceBetween": 30,
+                "slidesPerView": 1,
+                "slidesPerGroup": 1
+            },
+            "991": {
+                "spaceBetween": 30,
+                "slidesPerView": 2,
+                "slidesPerGroup": 2
+            },
+            "1199": {
+                "spaceBetween": 30,
+                "slidesPerView": 3,
+                "slidesPerGroup": 3
+            }
+        }}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonials-one__box">
+                                <p><span data-pt="Fiquei muito impressionado com o serviço da CashFlow. O processo foi rápido e transparente, consegui o empréstimo em apenas 24 horas para expandir o meu negócio." data-en="I was very impressed with CashFlow's service. The process was quick and transparent, I got the loan in just 24 hours to expand my business.">Fiquei muito impressionado com o serviço da CashFlow. O processo foi rápido e transparente, consegui o empréstimo em apenas 24 horas para expandir o meu negócio.</span></p>
+                                <h3>João Mateus</h3>
+                                <span class="testi_sname" data-pt="Empresário" data-en="Entrepreneur">Empresário</span>
+                            </div><!-- /.testimonials-one__box -->
+                            <div class="testimonials-one__box-info">
+                                <img src="assets/images/resources/testimonials-1-2.png" alt="">
+                            </div><!-- /.testimonials-one__box-info -->
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="testimonials-one__box">
+                                <p><span data-pt="A CashFlow ajudou-me a pagar as propinas da minha filha na universidade. O atendimento foi excelente e as condições muito justas." data-en="CashFlow helped me pay my daughter's university tuition. The service was excellent and the conditions very fair.">A CashFlow ajudou-me a pagar as propinas da minha filha na universidade. O atendimento foi excelente e as condições muito justas.</span></p>
+                                <h3>Maria Santos</h3>
+                                <span class="testi_sname" data-pt="Professora" data-en="Teacher">Professora</span>
+                            </div><!-- /.testimonials-one__box -->
+                            <div class="testimonials-one__box-info">
+                                <img src="assets/images/resources/testimonials-1-1.png" alt="">
+                            </div><!-- /.testimonials-one__box-info -->
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="testimonials-one__box">
+                                <p><span data-pt="Recomendo a CashFlow a todos os meus amigos. É uma empresa séria, com taxas competitivas e sem burocracias desnecessárias." data-en="I recommend CashFlow to all my friends. It's a serious company with competitive rates and no unnecessary bureaucracy.">Recomendo a CashFlow a todos os meus amigos. É uma empresa séria, com taxas competitivas e sem burocracias desnecessárias.</span></p>
+                                <h3>Marta Nhaca</h3>
+                                <span class="testi_sname" data-pt="Comerciante" data-en="Trader">Comerciante</span>
+                            </div><!-- /.testimonials-one__box -->
+                            <div class="testimonials-one__box-info">
+                                <img src="assets/images/resources/testimonials-1-3.png" alt="">
+                            </div><!-- /.testimonials-one__box-info -->
+                        </div><!-- /.swiper-slide -->
+                  
+                    </div><!-- /.swiper-wrapper -->
+
+                    <div class="testimonials-one__swiper-pagination swiper-pagination"></div>
+                    <!-- /.testimonials-one__swiper-pagination swiper-pagination -->
+                </div><!-- /.thm-swiper__slider -->
+            </div><!-- /.container -->
+        </section><!-- /.testimonials-one -->
+
+        <section class="why-choose">
+            <img src="assets/images/shapes/why-choose-shape-1-1.png" class="why-choose__shape-1" alt="">
+            <img src="assets/images/shapes/why-choose-shape-1-2.png" class="why-choose__shape-2" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="why-choose__image">
+                            <p><i class="pylon-icon-investment"></i><span data-pt="Confiança, transparência e resultados" data-en="Trust, Transparency, and Results">Confiança, transparência e resultados</span></p>
+                            <img src="assets/images/resources/why-choose-1-1.png" alt="">
+                        </div><!-- /.why-choose__image -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="why-choose__content">
+                            <div class="block-title text-left">
+                                <p data-pt="Os Nossos Benefícios" data-en="Our Benefits">Os Nossos Benefícios</p>
+                                <h2 data-pt="Porquê Escolher-nos?" data-en="Why Choose Us?">Porquê Escolher-nos?</h2>
+                            </div><!-- /.block-title -->
+                            <p data-pt="Oferecemos os melhores serviços de microcrédito e a nossa equipa experiente ajuda-o. Menos documentos e processo de aprovação rápido. Também oferecemos facilidades de cartão de crédito com juros diários competitivos, sempre com transparência total." data-en="We offer the best microcredit services and our experienced team helps you. Fewer documents and fast approval process. We also offer credit card facilities with competitive daily interest, always with total transparency.">Oferecemos os melhores serviços de microcrédito e a nossa equipa experiente ajuda-o. Menos documentos e processo de aprovação rápido. Também oferecemos facilidades de cartão de crédito com juros diários competitivos, sempre com transparência total.</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="why-choose__box">
+                                        <h3><i class="fa fa-caret-right"></i><span data-pt="Equipa Profissional" data-en="Professional Team">Equipa Profissional</span></h3>
+                                        <p data-pt="Consultores especializados em microcrédito." data-en="Consultants specialized in microcredit.">Consultores especializados em microcrédito.</p>
+                                    </div><!-- /.why-choose__box -->
+                                </div><!-- /.col-md-6 -->
+                                <div class="col-md-6">
+                                    <div class="why-choose__box">
+                                        <h3><i class="fa fa-caret-right"></i><span data-pt="Pagamentos Rápidos" data-en="Quick Payments">Pagamentos Rápidos</span></h3>
+                                        <p data-pt="Aprovação e desembolso em 24 horas." data-en="Approval and disbursement in 24 hours.">Aprovação e desembolso em 24 horas.</p>
+                                    </div><!-- /.why-choose__box -->
+                                </div><!-- /.col-md-6 -->
+                            </div><!-- /.row -->
+                            <div class="why-choose__progress">
+                                <div class="why-choose__progress-top">
+                                    <h3 data-pt="Processo de Empréstimo" data-en="Loan Process">Processo de Empréstimo</h3>
+                                    <span>90%</span>
+                                </div><!-- /.why-choose__progress-top -->
+                                <div class="why-choose__progress-bar">
+                                    <span style="width: 90%" class="wow slideInLeft" data-wow-duration="1500ms"></span>
+                                </div><!-- /.why-choose__progress-bar -->
+                            </div><!-- /.why-choose__progress -->
+                            <div class="why-choose__progress">
+                                <div class="why-choose__progress-top">
+                                    <h3 data-pt="Consultoria" data-en="Consultancy">Consultoria</h3>
+                                    <span>80%</span>
+                                </div><!-- /.why-choose__progress-top -->
+                                <div class="why-choose__progress-bar">
+                                    <span style="width:80%" class="wow slideInLeft" data-wow-duration="1500ms"></span>
+                                </div><!-- /.why-choose__progress-bar -->
+                            </div><!-- /.why-choose__progress -->
+                            <div class="why-choose__progress">
+                                <div class="why-choose__progress-top">
+                                    <h3 data-pt="Benefícios de Pagamento" data-en="Payment Benefits">Benefícios de Pagamento</h3>
+                                    <span>85%</span>
+                                </div><!-- /.why-choose__progress-top -->
+                                <div class="why-choose__progress-bar">
+                                    <span style="width: 85%" class="wow slideInLeft" data-wow-duration="1500ms"></span>
+                                </div><!-- /.why-choose__progress-bar -->
+                            </div><!-- /.why-choose__progress -->
+                        </div><!-- /.why-choose__content -->
+
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.why-choose -->
+
+        <section class="funfact-one">
+            <div class="funfact-one__bg" style="background-image: url(assets/images/backgrounds/funfact-bg-1-1.jpg);">
+            </div><!-- /.funfact-one__bg -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="funfact-one__box">
+                            <h3><span class="odometer" data-count="99">00</span>%</h3>
+                            <p data-pt="Aprovamos Empréstimos" data-en="We Approve Loans">Aprovamos Empréstimos</p>
+                        </div><!-- /.funfact-one__box -->
+                    </div><!-- /.col-md-6 col-lg-3 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="funfact-one__box">
+                            <h3><span class="odometer" data-count="90">00</span>K MT</h3>
+                            <p data-pt="Pagamentos Diários" data-en="Daily Payments">Pagamentos Diários</p>
+                        </div><!-- /.funfact-one__box -->
+                    </div><!-- /.col-md-6 col-lg-3 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="funfact-one__box">
+                            <h3><span class="odometer" data-count="8900">00</span></h3>
+                            <p data-pt="Clientes Satisfeitos" data-en="Happy Customers">Clientes Satisfeitos</p>
+                        </div><!-- /.funfact-one__box -->
+                    </div><!-- /.col-md-6 col-lg-3 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="funfact-one__box">
+                            <h3><span class="odometer" data-count="346">00</span></h3>
+                            <p data-pt="Membros da Equipa" data-en="Staff Members">Membros da Equipa</p>
+                        </div><!-- /.funfact-one__box -->
+                    </div><!-- /.col-md-6 col-lg-3 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.funfact-one -->
+
+        <section class="blog-home" style="display: none;">
+            <div class="container">
+                <div class="block-title text-center">
+                    <p data-pt="Directamente do Blog" data-en="Directly From the Blog">Directamente do Blog</p>
+                    <h2 class="blog-title__h2" data-pt="Notícias e Artigos" data-en="News & Articles">Notícias e Artigos</h2>
+                </div><!-- /.block-title -->
+                <div class="row">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="blog-card">
+                            <div class="blog-card__image">
+                                <span>20 Sep, 2023</span>
+                                <img src="assets/images/blog/blog-1-1.png" alt="">
+                            </div><!-- /.blog-card__image -->
+                            <div class="blog-card__content">
+                                <div class="blog-card__meta">
+                                    <a href="#"><i class="far fa-user"></i>Admin</a>
+                                    <a href="news-details.html"><i class="far fa-credit-card"></i>Credit Card</a>
+                                </div><!-- /.blog-card__meta -->
+                                <h3><a href="news-details.html" data-pt="Para automóveis pode obter até 90% do valor em empréstimo" data-en="For cars you can get up to 90% of the value in loan">Para automóveis pode obter até 90% do valor em empréstimo</a></h3>
+                                <div class="blog-card__bottom">
+                                    <div class="blog-card-bottom-readmore">
+                                        <a href="news-details.html" class="readmore-card-link"><i
+                                                class="pylon-icon-right-arrow"></i>Read More</a>
+                                    </div><!-- /.blog-card-bottom-readmore-->
+                                    <span class="blog_comment">
+                                        <a href="#"><i class="far fa-comments"></i>0 Comments</a>
+                                    </span>
+                                </div><!-- /.blog-card__bottom -->
+                            </div><!-- /.blog-card__content -->
+                        </div><!-- /.blog-card -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="blog-card">
+                            <div class="blog-card__image">
+                                <span>20 Sep, 2023</span>
+                                <img src="assets/images/blog/blog-1-2.png" alt="">
+                            </div><!-- /.blog-card__image -->
+                            <div class="blog-card__content">
+                                <div class="blog-card__meta">
+                                    <a href="#"><i class="far fa-user"></i>Admin</a>
+                                    <a href="news-details.html"><i class="far fa-credit-card"></i>Credit Card</a>
+                                </div><!-- /.blog-card__meta -->
+                                <h3><a href="news-details.html" data-pt="Como obter empréstimo para educação no exterior" data-en="How to get education loan for overseas">Como obter empréstimo para educação no exterior</a></h3>
+                                <div class="blog-card__bottom">
+                                    <div class="blog-card-bottom-readmore">
+                                        <a href="news-details.html" class="readmore-card-link"><i
+                                                class="pylon-icon-right-arrow"></i>Read More</a>
+                                    </div><!-- /.blog-card-bottom-readmore-->
+                                    <span class="blog_comment">
+                                        <a href="#"><i class="far fa-comments"></i>0 Comments</a>
+                                    </span>
+                                </div><!-- /.blog-card__bottom -->
+                            </div><!-- /.blog-card__content -->
+                        </div><!-- /.blog-card -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="blog-card">
+                            <div class="blog-card__image">
+                                <span>20 Sep, 2023</span>
+                                <img src="assets/images/blog/blog-1-3.png" alt="">
+                            </div><!-- /.blog-card__image -->
+                            <div class="blog-card__content">
+                                <div class="blog-card__meta">
+                                    <a href="#"><i class="far fa-user"></i>Admin</a>
+                                    <a href="news-details.html"><i class="far fa-credit-card"></i>Credit Card</a>
+                                </div><!-- /.blog-card__meta -->
+                                <h3><a href="news-details.html" data-pt="Forma fácil de calcular juros de um empréstimo" data-en="Easy way to calculate interest on a loan">Forma fácil de calcular juros de um empréstimo</a></h3>
+                                <div class="blog-card__bottom">
+                                    <div class="blog-card-bottom-readmore">
+                                        <a href="news-details.html" class="readmore-card-link"><i
+                                                class="pylon-icon-right-arrow"></i>Read More</a>
+                                    </div><!-- /.blog-card-bottom-readmore-->
+                                    <span class="blog_comment">
+                                        <a href="#"><i class="far fa-comments"></i>0 Comments</a>
+                                    </span>
+                                </div><!-- /.blog-card__bottom -->
+                            </div><!-- /.blog-card__content -->
+                        </div><!-- /.blog-card -->
+                    </div><!-- /.col-lg-3 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.blog-home -->
+
+        <div class="client-carousel pt-90 pb-90 client-carousel__has-border-top">
+            <div class="container">
+                <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
+                "0": {
+                    "spaceBetween": 30,
+                    "slidesPerView": 2
+                },
+                "375": {
+                    "spaceBetween": 30,
+                    "slidesPerView": 2
+                },
+                "575": {
+                    "spaceBetween": 30,
+                    "slidesPerView": 3
+                },
+                "767": {
+                    "spaceBetween": 50,
+                    "slidesPerView": 4
+                },
+                "991": {
+                    "spaceBetween": 50,
+                    "slidesPerView": 5
+                },
+                "1199": {
+                    "spaceBetween": 100,
+                    "slidesPerView": 5
+                }
+            }}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="assets/images/resources/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                    </div><!-- /.swiper-wrapper -->
+                </div><!-- /.thm-swiper__slider -->
+            </div><!-- /.container -->
+        </div><!-- /.client-carousel -->
+
+        <section class="call-to-action"
+            style="background-image: url(assets/images/backgrounds/call-to-action-bg-1-1.jpg);">
+            <div class="container">
+                <div class="left-content">
+                    <p><span data-pt="Simples" data-en="Simple">Simples</span><span data-pt="Transparente" data-en="Transparent">Transparente</span><span data-pt="Seguro" data-en="Secure">Seguro</span></p>
+                    <h3 data-pt="Obtenha um Empréstimo para Negócios Rapidamente" data-en="Get a Business Loan Quickly">Obtenha um Empréstimo para Negócios Rapidamente</h3>
+                </div><!-- /.left-content -->
+                <div class="right-content">
+                    <a href="apply-now.html" class="thm-btn" data-pt="Solicitar Empréstimo" data-en="Apply For Loan">Solicitar Empréstimo</a><!-- /.thm-btn -->
+                </div><!-- /.right-content -->
+            </div><!-- /.container -->
+        </section><!-- /.call-to-action -->
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget footer-widget__about">
+                            <a href="#">
+                                <img src="assets/images/cashflow-logo-light.svg" width="155" alt="CashFlow Logo">
+                            </a>
+                            <p data-pt="Bem-vindo à CashFlow, empresa moçambicana de microcrédito. Oferecemos empréstimos com juros razoáveis e processo simplificado para realizar os seus sonhos." data-en="Welcome to CashFlow, Mozambican microcredit company. We offer loans with reasonable interest and simplified process to make your dreams come true.">Bem-vindo à CashFlow, empresa moçambicana de microcrédito. Oferecemos empréstimos com juros razoáveis e processo simplificado para realizar os seus sonhos.</p>
+                            <div class="footer-widget__about-phone">
+                                <i class="pylon-icon-tech-support"></i>
+                                <div class="footer-widget__about-phone-content">
+                                    <span data-pt="Ligue a Qualquer Hora" data-en="Call Anytime">Ligue a Qualquer Hora</span>
+                                    <h3><a href="tel:+258843210000">+258 84 321 0000</a></h3>
+                                </div><!-- /.footer-widget__about-phone-content -->
+                            </div><!-- /.footer-widget__about-phone -->
+                        </div><!-- /.footer-widget footer-widget__about -->
+                    </div><!-- /.col-lg-3 -->
+                    
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget footer-widget__post">
+                            <h3 class="footer-widget__title" data-pt="Últimas Notícias" data-en="Latest News">Últimas Notícias</h3>
+                            <ul class="list-unstyled footer-widget__post-list">
+                                <li>
+                                    <img src="assets/images/resources/footer-post-1-1.png" alt="">
+                                    <div class="footer-widget__post-list-content">
+                                        <span>October 16, 2023</span>
+                                        <h3><a href="#" data-pt="Oferecemos Serviços de Qualidade" data-en="We're Providing Quality Services">Oferecemos Serviços de Qualidade</a></h3>
+                                    </div><!-- /.footer-widget__post-content -->
+                                </li>
+                                <li>
+                                    <img src="assets/images/resources/footer-post-1-2.png" alt="">
+                                    <div class="footer-widget__post-list-content">
+                                        <span>October 16, 2023</span>
+                                        <h3><a href="#" data-pt="Oferecemos Serviços de Qualidade" data-en="We're Providing Quality Services">Oferecemos Serviços de Qualidade</a></h3>
+                                    </div><!-- /.footer-widget__post-content -->
+                                </li>
+                            </ul><!-- /.list-unstyled -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget footer-widget__contact">
+                            <h3 data-pt="Contacto" data-en="Contact">Contacto</h3>
+                            <ul class="list-unstyled footer-widget__contact-list">
+                                <li>
+                                    <a href="mailto:ajuda@cashflow.co.mz"><i
+                                            class="pylon-icon-email1"></i>ajuda@cashflow.co.mz</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="pylon-icon-clock2"></i><span data-pt="Seg - Sáb 8:00 - 18:00" data-en="Mon - Sat 8:00 AM - 6:00 PM">Seg - Sáb 8:00 - 18:00</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="pylon-icon-pin1"></i><span data-pt="Av. Julius Nyerere, 123, Maputo, Moçambique" data-en="Julius Nyerere Ave, 123, Maputo, Mozambique">Av. Julius Nyerere, 123, Maputo, Moçambique</span></a>
+                                </li>
+                            </ul>
+                        </div><!-- /.footer-widget footer-widget__contact -->
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </footer><!-- /.site-footer -->
+        <div class="bottom-footer">
+            <div class="container">
+                <p data-pt="© Copyright 2024 por CashFlow.co.mz" data-en="© Copyright 2024 by CashFlow.co.mz">© Copyright 2024 por CashFlow.co.mz</p>
+                <div class="bottom-footer__social">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.bottom-footer__social -->
+            </div><!-- /.container -->
+        </div><!-- /.bottom-footer -->
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"></span>
+            <div class="logo-box">
+                <a href="/" aria-label="logo image"><img src="assets/images/cashflow-logo-light.svg" width="155"
+                        alt="CashFlow Logo" /></a>
+
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="pylon-icon-email1"></i>
+                    <a href="mailto:ajuda@cashflow.co.mz">ajuda@cashflow.co.mz</a>
+                </li>
+                <li>
+                    <i class="pylon-icon-telephone"></i>
+                    <a href="tel:+258843210000">+258 84 321 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Pesquisar..." data-pt-placeholder="Pesquisar..." data-en-placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/wNumb.min.js"></script>
+    <script src="assets/js/nouislider.min.js"></script>
+
+    <!-- template js -->
+    <script src="assets/js/theme.js"></script>
+    
+    <!-- Language switching script -->
+    <script>
+        let currentLanguage = 'pt';
+        
+        function switchLanguage(lang) {
+            currentLanguage = lang;
+            
+            // Update button states
+            document.getElementById('btn-pt').classList.toggle('active', lang === 'pt');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            
+            // Update HTML lang attribute
+            document.getElementById('html-lang').setAttribute('lang', lang);
+            
+            // Update all elements with data attributes
+            const elements = document.querySelectorAll('[data-pt], [data-en]');
+            elements.forEach(element => {
+                const text = element.getAttribute('data-' + lang);
+                if (text) {
+                    element.textContent = text;
+                }
+            });
+            
+            // Update placeholder for search input
+            const searchInput = document.getElementById('search');
+            if (searchInput) {
+                const placeholder = searchInput.getAttribute('data-' + lang + '-placeholder');
+                if (placeholder) {
+                    searchInput.setAttribute('placeholder', placeholder);
+                }
+            }
+            
+            // Update page title
+            if (lang === 'pt') {
+                document.title = 'CashFlow - Microcrédito em Moçambique | Empréstimos Rápidos e Seguros';
+                document.querySelector('meta[name="description"]').setAttribute('content', 'CashFlow - Empresa líder em microcrédito em Moçambique. Oferecemos empréstimos rápidos, seguros e acessíveis para pequenos negócios e necessidades pessoais.');
+            } else {
+                document.title = 'CashFlow - Microcredit in Mozambique | Fast and Secure Loans';
+                document.querySelector('meta[name="description"]').setAttribute('content', 'CashFlow - Leading microcredit company in Mozambique. We offer fast, secure and affordable loans for small businesses and personal needs.');
+            }
+            
+            // Store language preference
+            localStorage.setItem('cashflow-language', lang);
+        }
+        
+        // Load saved language preference on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('cashflow-language') || 'pt';
+            switchLanguage(savedLang);
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from webdevcode.com/html/pylon/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Jul 2025 09:24:50 GMT -->
+</html>

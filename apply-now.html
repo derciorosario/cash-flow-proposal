@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="pt" id="html-lang">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidatar-se Agora - CashFlow | Microcrédito em Moçambique</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <meta name="description" content="Candidate-se ao microcrédito da CashFlow. Processo simples e rápido para obter financiamento para o seu negócio em Moçambique.">
+
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/pylon-icons.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Language Toggle Styles -->
+    <style>
+        .language-toggle {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: #28a745;
+            border-radius: 25px;
+            padding: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .language-toggle button {
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .language-toggle button.active {
+            background: white;
+            color: #28a745;
+        }
+        .language-toggle button:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        .language-toggle button.active:hover {
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button onclick="switchLanguage('pt')" id="btn-pt" class="active">PT</button>
+        <button onclick="switchLanguage('en')" id="btn-en">EN</button>
+    </div>
+
+    <div class="preloader">
+        <img class="preloader__image" src="assets/images/loader.png" alt="">
+    </div><!-- /.preloader -->
+    <div class="page-wrapper">
+      <header class="main-header">
+            <div class="topbar">
+                <div class="container">
+                    <div class="topbar__left">
+                        <div class="topbar__social">
+                            <a href="#" class="fab fa-facebook-square"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div><!-- /.topbar__social -->
+                        <a style="display: none;" href="faq.html" data-pt="Perguntas Frequentes" data-en="FAQs">Perguntas Frequentes</a>
+                    </div><!-- /.topbar__left -->
+                    <div class="topbar__right">
+                        <a href="#"><i class="pylon-icon-email1"></i>ajuda@cashflow.co.mz</a>
+                        <a href="#"><i class="pylon-icon-clock2"></i><span data-pt="Seg - Sáb 8:00 - 18:00" data-en="Mon - Sat 8:00 AM - 6:00 PM">Seg - Sáb 8:00 - 18:00</span></a>
+                    </div><!-- /.topbar__right -->
+                </div><!-- /.container -->
+            </div><!-- /.topbar -->
+            <nav class="main-menu">
+                <div class="container">
+                    <div class="logo-box">
+                        <a href="/" aria-label="logo image"><img src="assets/images/cashflow-logo-dark.svg" width="155"
+                                alt="CashFlow Logo"></a>
+                        <span class="fa fa-bars mobile-nav__toggler"></span>
+                    </div><!-- /.logo-box -->
+                    <ul class="main-menu__list">
+                        <li class="dropdown">
+                            <a href="/" data-pt="Início" data-en="Home">Início</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#about" data-pt="Sobre Nós" data-en="About Us">Sobre Nós</a>
+                        </li>
+                        <li><a href="#services" data-pt="Serviços" data-en="Services">Serviços</a>
+                           
+                        </li>
+                        <li style="display: none;" class="dropdown"><a href="#news" data-pt="Notícias" data-en="News">Notícias</a>
+                        </li>
+                        <li class="search-btn search-toggler">
+                            <a href="#"><i class="pylon-icon-magnifying-glass"></i></a>
+                        </li>
+                    </ul>
+                    <!-- /.main-menu__list -->
+
+                    <div class="main-header__info">
+                        <div class="main-header__info-phone">
+                            <i class="pylon-icon-tech-support"></i>
+                            <div class="main-header__info-phone-content">
+                                <span data-pt="Ligue a Qualquer Hora" data-en="Call Anytime">Ligue a Qualquer Hora</span>
+                                <h3><a href="tel:+258843210000">+258 84 321 0000</a></h3>
+                            </div><!-- /.main-header__info-phone-content -->
+                        </div><!-- /.main-header__info-phone -->
+                    </div><!-- /.main-header__info -->
+                </div><!-- /.container -->
+            </nav>
+            <!-- /.main-menu -->
+        </header><!-- /.main-header -->
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+        <section class="page-header">
+            <div class="page-header__bg"
+                style="background-image: url(assets/images/backgrounds/page-header-bg-1-1.jpg);"></div>
+            <!-- /.page-header__bg -->
+            <div class="container">
+                <ul class="thm-breadcrumb list-unstyled">
+                    <li><a href="/" data-pt="Início" data-en="Home">Início</a></li>
+                    <li>/</li>
+                    <li><span data-pt="Candidatar-se Agora" data-en="Apply Now">Candidatar-se Agora</span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+                <h2 data-pt="Candidatar-se Agora" data-en="Apply Now">Candidatar-se Agora</h2>
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
+
+
+        <section class="apply-one">
+            <div class="container">
+                <form action="https://webdevcode.com/html/pylon/apply-now.php" method="post" class="contact-one__form">
+                    <div class="contact-one__form-box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="block-title">
+                                    <p class="small-title" data-pt="Calcule o valor do seu empréstimo" data-en="Calculate your loan amount">Calcule o valor do seu empréstimo</p>
+                                    <h2 class="title-block" data-pt="Detalhes do Empréstimo" data-en="Loan Details">Detalhes do Empréstimo</h2>
+                                </div><!-- /.block-title-->
+                            </div><!-- /.col-md-12-->
+                        </div><!-- /.row-->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Valor do Empréstimo*" data-en="Loan Amount*">Valor do Empréstimo*</label>
+                                    <input type="number" name="loanamount" class="form-control contact-one__form-input"
+                                        placeholder="Valor do Empréstimo" data-pt-placeholder="Valor do Empréstimo" data-en-placeholder="Loan Amount" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Rendimento Mensal*" data-en="Monthly Income*">Rendimento Mensal*</label>
+                                    <input type="number" name="income" class="form-control contact-one__form-input"
+                                        placeholder="Rendimento Mensal" data-pt-placeholder="Rendimento Mensal" data-en-placeholder="Monthly Income" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                        </div><!-- /.row-->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select name="purposeloan" class="contact-one__form-input custom-select"
+                                        required="">
+                                        <option value="" data-pt="Seleccione o Propósito do Empréstimo" data-en="Select Purpose of Loan">Seleccione o Propósito do Empréstimo</option>
+                                        <option value="Business" data-pt="Negócio" data-en="Business">Negócio</option>
+                                        <option value="Agriculture" data-pt="Agricultura" data-en="Agriculture">Agricultura</option>
+                                        <option value="Commerce" data-pt="Comércio" data-en="Commerce">Comércio</option>
+                                        <option value="Services" data-pt="Serviços" data-en="Services">Serviços</option>
+                                        <option value="Manufacturing" data-pt="Manufactura" data-en="Manufacturing">Manufactura</option>
+                                        <option value="Education" data-pt="Educação" data-en="Education">Educação</option>
+                                        <option value="Health" data-pt="Saúde" data-en="Health">Saúde</option>
+                                        <option value="Emergency" data-pt="Emergência" data-en="Emergency">Emergência</option>
+                                        <option value="Other" data-pt="Outro" data-en="Other">Outro</option>
+                                    </select>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Prazo do Empréstimo" data-en="Loan Term">Prazo do Empréstimo</label>
+                                    <select id="loanyears" name="loanyears"
+                                        class="contact-one__form-input custom-select" required>
+                                        <option value="" data-pt="Seleccione o Prazo" data-en="Select Loan Term">Seleccione o Prazo</option>
+                                        <option value="6 Months" data-pt="6 Meses" data-en="6 Months">6 Meses</option>
+                                        <option value="12 Months" data-pt="12 Meses" data-en="12 Months">12 Meses</option>
+                                        <option value="18 Months" data-pt="18 Meses" data-en="18 Months">18 Meses</option>
+                                        <option value="24 Months" data-pt="24 Meses" data-en="24 Months">24 Meses</option>
+                                    </select>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                        </div><!-- /.row-->
+                    </div><!-- /.contact-one__form-box-->
+
+                    <div class="contact-one__form-box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="block-title">
+                                    <p class="small-title" data-pt="Solicite Mais Detalhes" data-en="Ask for More Details">Solicite Mais Detalhes</p>
+                                    <h2 class="title-block" data-pt="Detalhes Pessoais" data-en="Personal Details">Detalhes Pessoais</h2>
+                                </div><!-- /.block-title-->
+                            </div><!-- /.col-md-12-->
+                        </div><!-- /.row-->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Nome Completo" data-en="Full Name">Nome Completo <strong data-pt="[conforme Bilhete de Identidade]" data-en="[as per ID Document]">[conforme Bilhete de Identidade]</strong></label>
+                                    <input type="text" name="yourname" class="form-control contact-one__form-input"
+                                        placeholder="Nome Completo" data-pt-placeholder="Nome Completo" data-en-placeholder="Full Name" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Email*" data-en="Email*">Email*</label>
+                                    <input type="email" name="your-email" class="form-control contact-one__form-input"
+                                        placeholder="Seu Email" data-pt-placeholder="Seu Email" data-en-placeholder="Your Email" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                        </div><!-- /.row-->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Número de Telemóvel*" data-en="Mobile Number*">Número de Telemóvel*</label>
+                                    <input type="tel" name="phonenumber" class="form-control contact-one__form-input"
+                                        placeholder="Número de Telemóvel" data-pt-placeholder="Número de Telemóvel" data-en-placeholder="Mobile Number" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Estado Civil*" data-en="Marital Status*">Estado Civil*</label>
+                                    <select name="martialstatus" class="contact-one__form-input custom-select" required>
+                                        <option value="" data-pt="Seleccione o Estado Civil" data-en="Select Marital Status">Seleccione o Estado Civil</option>
+                                        <option value="Single" data-pt="Solteiro(a)" data-en="Single">Solteiro(a)</option>
+                                        <option value="Married" data-pt="Casado(a)" data-en="Married">Casado(a)</option>
+                                        <option value="Co Habiting" data-pt="União de Facto" data-en="Co Habiting">União de Facto</option>
+                                        <option value="Separated" data-pt="Separado(a)" data-en="Separated">Separado(a)</option>
+                                        <option value="Divorced" data-pt="Divorciado(a)" data-en="Divorced">Divorciado(a)</option>
+                                        <option value="Widowed" data-pt="Viúvo(a)" data-en="Widowed">Viúvo(a)</option>
+                                    </select>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                        </div><!-- /.row-->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Data de Nascimento*" data-en="Birth Date*">Data de Nascimento* <strong data-pt="[conforme Bilhete de Identidade]" data-en="[as per ID Document]">[conforme Bilhete de Identidade]</strong></label>
+                                    <input type="date" name="birthdate" class="form-control contact-one__form-input"
+                                        placeholder="Data de Nascimento" data-pt-placeholder="Data de Nascimento" data-en-placeholder="Birth Date" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Número de Dependentes*" data-en="Number Of Dependents*">Número de Dependentes*</label>
+                                    <select name="numberofdependents" class="contact-one__form-input custom-select"
+                                        required>
+                                        <option value="" data-pt="Seleccione Dependentes" data-en="Select Dependents">Seleccione Dependentes</option>
+                                        <option value="0 Dependents" data-pt="0 Dependentes" data-en="0 Dependents">0 Dependentes</option>
+                                        <option value="1 Dependents" data-pt="1 Dependente" data-en="1 Dependent">1 Dependente</option>
+                                        <option value="2 Dependents" data-pt="2 Dependentes" data-en="2 Dependents">2 Dependentes</option>
+                                        <option value="3 Dependents" data-pt="3 Dependentes" data-en="3 Dependents">3 Dependentes</option>
+                                        <option value="4+ Dependents" data-pt="4+ Dependentes" data-en="4+ Dependents">4+ Dependentes</option>
+                                    </select>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                        </div><!-- /.row-->
+                    </div><!-- /.contact-one__form-box-->
+
+
+                    <div class="contact-one__form-box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="block-title">
+                                    <p class="small-title" data-pt="Rua, Cidade e Província" data-en="Street, City And Province">Rua, Cidade e Província</p>
+                                    <h2 class="title-block" data-pt="Detalhes do Endereço" data-en="Address Details">Detalhes do Endereço</h2>
+                                </div><!-- /.block-title-->
+                            </div><!-- /.col-md-12-->
+                        </div><!-- /.row-->
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-pt="Número/Nome da Casa*" data-en="House No/Name*">Número/Nome da Casa*</label>
+                                    <input type="text" name="house-no" class="form-control contact-one__form-input"
+                                        placeholder="Número/Nome da Casa" data-pt-placeholder="Número/Nome da Casa" data-en-placeholder="House Number/Name" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-4-->
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-pt="Rua*" data-en="Street*">Rua*</label>
+                                    <input type="text" name="street" class="form-control contact-one__form-input"
+                                        placeholder="Rua" data-pt-placeholder="Rua" data-en-placeholder="Street" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-4-->
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-pt="Cidade*" data-en="City*">Cidade*</label>
+                                    <input type="text" name="city" class="form-control contact-one__form-input"
+                                        placeholder="Cidade" data-pt-placeholder="Cidade" data-en-placeholder="City" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-4-->
+                        </div><!-- /.row-->
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-pt="Província*" data-en="Province*">Província*</label>
+                                    <input type="text" name="state" class="form-control contact-one__form-input"
+                                        placeholder="Província" data-pt-placeholder="Província" data-en-placeholder="Province" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-4-->
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-pt="País*" data-en="Country*">País*</label>
+                                    <input type="text" name="country" class="form-control contact-one__form-input"
+                                        placeholder="País" data-pt-placeholder="País" data-en-placeholder="Country" value="Moçambique" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-4-->
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-pt="Código Postal*" data-en="Postal Code*">Código Postal*</label>
+                                    <input type="text" name="pin" class="form-control contact-one__form-input"
+                                        placeholder="Código Postal" data-pt-placeholder="Código Postal" data-en-placeholder="Postal Code" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-4-->
+                        </div><!-- /.row-->
+                    </div><!-- /.contact-one__form-box-->
+
+                    <div class="contact-one__form-box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="block-title">
+                                    <p class="small-title" data-pt="Emprego e outros detalhes" data-en="Employment and other details">Emprego e outros detalhes</p>
+                                    <h2 class="title-block" data-pt="Outros Detalhes" data-en="Other Details">Outros Detalhes</h2>
+                                </div><!-- /.block-title-->
+                            </div><!-- /.col-md-12-->
+                        </div><!-- /.row-->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Sector de Emprego*" data-en="Employment Industry*">Sector de Emprego*</label>
+                                    <input type="text" name="employmentindustry"
+                                        class="form-control contact-one__form-input" placeholder="Sector de Emprego"
+                                        data-pt-placeholder="Sector de Emprego" data-en-placeholder="Employment Industry" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label data-pt="Nome do Empregador*" data-en="Employer Name*">Nome do Empregador*</label>
+                                    <input type="text" name="employer_name" class="form-control contact-one__form-input"
+                                        placeholder="Nome do Empregador" data-pt-placeholder="Nome do Empregador" data-en-placeholder="Employer Name" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-6-->
+                        </div><!-- /.row-->
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-pt="Situação Laboral*" data-en="Employment Status*">Situação Laboral*</label>
+                                    <select name="employer_status" class="contact-one__form-input custom-select"
+                                        required>
+                                        <option value="" data-pt="Seleccione a Situação Laboral" data-en="Select Employment Status">Seleccione a Situação Laboral</option>
+                                        <option value="Full Time Employed" data-pt="Empregado a Tempo Inteiro" data-en="Full Time Employed">Empregado a Tempo Inteiro</option>
+                                        <option value="Part Time Employed" data-pt="Empregado a Tempo Parcial" data-en="Part Time Employed">Empregado a Tempo Parcial</option>
+                                        <option value="Self Employed" data-pt="Trabalhador por Conta Própria" data-en="Self Employed">Trabalhador por Conta Própria</option>
+                                        <option value="Temporarily Employed" data-pt="Empregado Temporário" data-en="Temporarily Employed">Empregado Temporário</option>
+                                        <option value="Student" data-pt="Estudante" data-en="Student">Estudante</option>
+                                        <option value="Pension" data-pt="Reformado" data-en="Retired">Reformado</option>
+                                        <option value="Unemployed" data-pt="Desempregado" data-en="Unemployed">Desempregado</option>
+                                    </select>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-4-->
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-pt="Tempo de Emprego*" data-en="Length of Employment*">Tempo de Emprego*</label>
+                                    <input type="text" name="lengthemployment"
+                                        class="form-control contact-one__form-input" placeholder="Tempo de Emprego"
+                                        data-pt-placeholder="Tempo de Emprego" data-en-placeholder="Length of Employment" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-4-->
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-pt="Número de Telefone do Trabalho*" data-en="Work Phone Number*">Número de Telefone do Trabalho*</label>
+                                    <input type="tel" name="worknumber" class="form-control contact-one__form-input"
+                                        placeholder="Número de Telefone do Trabalho" data-pt-placeholder="Número de Telefone do Trabalho" data-en-placeholder="Work Phone Number" required>
+                                </div><!-- /.form-group-->
+                            </div><!-- /.col-md-4-->
+                        </div><!-- /.row-->
+                    </div><!-- /.contact-one__form-box-->
+
+                    <div class="contact-one__form-submit">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" value="Submeter" data-pt-value="Submeter" data-en-value="Submit" class="thm-btn">
+                            </div>
+                            <!--/.col-md-12-->
+                        </div>
+                        <!--/.row-->
+                    </div>
+                    <!--/.contact-one__form-submit-->
+
+                </form><!-- /.contact-one__form-->
+            </div><!-- /.container-->
+        </section><!-- /.contact-one-->
+
+
+       
+           <footer class="site-footer">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget footer-widget__about">
+                            <a href="/">
+                                <img src="assets/images/cashflow-logo-light.svg" width="155" alt="CashFlow Logo">
+                            </a>
+                            <p data-pt="Bem-vindo à CashFlow, empresa moçambicana de microcrédito. Oferecemos empréstimos com juros razoáveis e processo simplificado para realizar os seus sonhos." data-en="Welcome to CashFlow, Mozambican microcredit company. We offer loans with reasonable interest and simplified process to make your dreams come true.">Bem-vindo à CashFlow, empresa moçambicana de microcrédito. Oferecemos empréstimos com juros razoáveis e processo simplificado para realizar os seus sonhos.</p>
+                            <div class="footer-widget__about-phone">
+                                <i class="pylon-icon-tech-support"></i>
+                                <div class="footer-widget__about-phone-content">
+                                    <span data-pt="Ligue a Qualquer Hora" data-en="Call Anytime">Ligue a Qualquer Hora</span>
+                                    <h3><a href="tel:+258843210000">+258 84 321 0000</a></h3>
+                                </div><!-- /.footer-widget__about-phone-content -->
+                            </div><!-- /.footer-widget__about-phone -->
+                        </div><!-- /.footer-widget footer-widget__about -->
+                    </div><!-- /.col-lg-3 -->
+                    
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget footer-widget__post">
+                            <h3 class="footer-widget__title" data-pt="Últimas Notícias" data-en="Latest News">Últimas Notícias</h3>
+                            <ul class="list-unstyled footer-widget__post-list">
+                                <li>
+                                    <img src="assets/images/resources/footer-post-1-1.png" alt="">
+                                    <div class="footer-widget__post-list-content">
+                                        <span>October 16, 2023</span>
+                                        <h3><a href="#" data-pt="Oferecemos Serviços de Qualidade" data-en="We're Providing Quality Services">Oferecemos Serviços de Qualidade</a></h3>
+                                    </div><!-- /.footer-widget__post-content -->
+                                </li>
+                                <li>
+                                    <img src="assets/images/resources/footer-post-1-2.png" alt="">
+                                    <div class="footer-widget__post-list-content">
+                                        <span>October 16, 2023</span>
+                                        <h3><a href="#" data-pt="Oferecemos Serviços de Qualidade" data-en="We're Providing Quality Services">Oferecemos Serviços de Qualidade</a></h3>
+                                    </div><!-- /.footer-widget__post-content -->
+                                </li>
+                            </ul><!-- /.list-unstyled -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget footer-widget__contact">
+                            <h3 data-pt="Contacto" data-en="Contact">Contacto</h3>
+                            <ul class="list-unstyled footer-widget__contact-list">
+                                <li>
+                                    <a href="mailto:ajuda@cashflow.co.mz"><i
+                                            class="pylon-icon-email1"></i>ajuda@cashflow.co.mz</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="pylon-icon-clock2"></i><span data-pt="Seg - Sáb 8:00 - 18:00" data-en="Mon - Sat 8:00 AM - 6:00 PM">Seg - Sáb 8:00 - 18:00</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="pylon-icon-pin1"></i><span data-pt="Av. Julius Nyerere, 123, Maputo, Moçambique" data-en="Julius Nyerere Ave, 123, Maputo, Mozambique">Av. Julius Nyerere, 123, Maputo, Moçambique</span></a>
+                                </li>
+                            </ul>
+                        </div><!-- /.footer-widget footer-widget__contact -->
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </footer><!-- /.site-footer -->
+
+
+        <div class="bottom-footer">
+            <div class="container">
+                <p data-pt="© Copyright 2023 por CashFlow.co.mz" data-en="© Copyright 2023 by CashFlow.co.mz">© Copyright 2023 por CashFlow.co.mz</p>
+                <div class="bottom-footer__social">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.bottom-footer__social -->
+            </div><!-- /.container -->
+        </div><!-- /.bottom-footer -->
+    </div><!-- /.page-wrapper-->
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"></span>
+
+            <div class="logo-box">
+            <a href="/" aria-label="logo image"><img src="assets/images/cashflow-logo-light.svg" width="155"
+                        alt="CashFlow Logo" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="pylon-icon-email1"></i>
+                    <a href="mailto:ajuda@cashflow.co.mz">ajuda@cashflow.co.mz</a>
+                </li>
+                <li>
+                    <i class="pylon-icon-telephone"></i>
+                    <a href="tel:+258843210000">+258 84 321 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__language">
+                    <img src="assets/images/resources/flag-1-1.jpg" alt="">
+                    <label class="sr-only" for="language-select">select language</label>
+                    <!-- /#language-select.sr-only -->
+                 
+                </div><!-- /.mobile-nav__language -->
+                <div class="mobile-nav__social">
+                    <a href="#" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Pesquisar..." data-pt-placeholder="Pesquisar..." data-en-placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/wNumb.min.js"></script>
+    <script src="assets/js/nouislider.min.js"></script>
+
+    <!-- template js -->
+    <script src="assets/js/theme.js"></script>
+    
+    <!-- Language Toggle Script -->
+    <script>
+        function switchLanguage(lang) {
+            // Update HTML lang attribute
+            document.getElementById('html-lang').setAttribute('lang', lang);
+            
+            // Update button states
+            document.getElementById('btn-pt').classList.toggle('active', lang === 'pt');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            
+            // Update all elements with data attributes
+            const elements = document.querySelectorAll('[data-pt], [data-en]');
+            elements.forEach(element => {
+                if (element.hasAttribute('data-' + lang)) {
+                    element.textContent = element.getAttribute('data-' + lang);
+                }
+            });
+            
+            // Update placeholders for input fields
+            const inputs = document.querySelectorAll('input[data-' + lang + '-placeholder], select[data-' + lang + '-placeholder]');
+            inputs.forEach(input => {
+                if (input.hasAttribute('data-' + lang + '-placeholder')) {
+                    input.placeholder = input.getAttribute('data-' + lang + '-placeholder');
+                }
+            });
+            
+            // Update option texts in select elements
+            const options = document.querySelectorAll('option[data-pt], option[data-en]');
+            options.forEach(option => {
+                if (option.hasAttribute('data-' + lang)) {
+                    option.textContent = option.getAttribute('data-' + lang);
+                }
+            });
+            
+            // Update submit button value
+            const submitBtn = document.querySelector('input[type="submit"][data-' + lang + '-value]');
+            if (submitBtn && submitBtn.hasAttribute('data-' + lang + '-value')) {
+                submitBtn.value = submitBtn.getAttribute('data-' + lang + '-value');
+            }
+            
+            // Save language preference
+            localStorage.setItem('preferred-language', lang);
+        }
+        
+        // Load saved language preference on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferred-language') || 'pt';
+            switchLanguage(savedLang);
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from webdevcode.com/html/pylon/apply-now.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Jul 2025 09:25:54 GMT -->
+</html>

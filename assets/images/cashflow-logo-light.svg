@@ -1,0 +1,18 @@
+<svg width="155" height="50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#28a745;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20c997;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="25" cy="25" r="20" fill="url(#gradient)"/>
+  
+  <!-- Symbol replaced with CF -->
+  <text x="25" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">CF</text>
+  
+  <!-- Company name -->
+  <text x="55" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">CashFlow</text>
+  <text x="55" y="35" font-family="Arial, sans-serif" font-size="10" fill="#cccccc">Microcrédito</text>
+</svg>
